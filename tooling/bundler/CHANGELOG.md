@@ -1,5 +1,10 @@
 # Changelog
 
+## \[1.0.0-beta.4]
+
+- Only convert package name and binary name to kebab-case, keeping the `.desktop` `Name` field with the original configured value.
+  - [3f039cb8](https://www.github.com/tauri-apps/tauri/commit/3f039cb8a308b0f18deaa37d7cfb1cc50d308d0e) fix: keep original `productName` for .desktop `Name` field, closes [#2295](https://www.github.com/tauri-apps/tauri/pull/2295) ([#2384](https://www.github.com/tauri-apps/tauri/pull/2384)) on 2021-08-10
+
 ## \[1.0.0-beta.3]
 
 - Fix WIX uninstaller by using unique `GUID` shortcut.
